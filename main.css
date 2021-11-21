@@ -37,6 +37,12 @@ button {
 	box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
 }
 
+button:hover {
+	background-color: #f6980c;
+	box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
+	transition: background-color 0.3s ease-in;
+}
+
 .about {
 	display: flex;
 	align-items: center;
@@ -152,12 +158,34 @@ button {
 	margin: 90px 20px;
 }
 
-.form__container {
+.footer__container {
 	display: flex;
+	justify-content: center;
 }
 
 .footer__copyright {
 	margin-top: 40px;
 	text-align: center;
 	opacity: 0.5;
+}
+
+.footer__group {
+	margin-right: 80px;
+
+}
+
+.footer h3 {
+	font-size: 16px;
+	opacity: 0.7;
+	margin-bottom: 30px;
+}
+
+.footer__links {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.footer__links a {
+	padding-bottom: 15px;
 }
